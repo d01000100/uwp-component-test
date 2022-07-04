@@ -1,0 +1,35 @@
+﻿<!-- Para los tokens que dependen de un tema claro u oscuro (principalmente colores) 
+    Crear un ThemeDictionary con los tokens referente a ese tema.
+    
+    Los nombres de los tokens deben de coincidir en cada libreria, para que los componentes 
+    hagan referencia al mismo nombre y el valor cambie con el tema del sistema.
+    
+    Los tokens que no dependen del tema (espaciados, tamano de letra, etc) se pueden 
+    usar directo de los tokens normales. -->
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Tokens.xaml" />
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="ColorBotonDefecto" Color="{StaticResource ColorBotonAzulClaroDefecto}" />
+                    <SolidColorBrush x:Key="ColorFuenteBotonDefecto" Color="{StaticResource ColorFuenteBotonAzulClaroDefecto}" />
+                    <SolidColorBrush x:Key="ColorBotonHover" Color="{StaticResource ColorBotonAzulClaroHover}" />
+                    <SolidColorBrush x:Key="ColorBotonPresionado" Color="{StaticResource ColorBotonAzulClaroPresionado}" />
+                    <SolidColorBrush x:Key="ColorBotonEnfocado" Color="{StaticResource ColorBotonAzulClaroEnfocado}" />
+                    <SolidColorBrush x:Key="ColorBotonDeshabilitado" Color="{StaticResource ColorBotonAzulClaroDeshabilitado}" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="ColorBotonDefecto" Color="{StaticResource ColorBotonAzulOscuroDefecto}" />
+                    <SolidColorBrush x:Key="ColorFuenteBotonDefecto" Color="{StaticResource ColorFuenteBotonAzulOscuroDefecto}" />
+                    <SolidColorBrush x:Key="ColorBotonHover" Color="{StaticResource ColorBotonAzulOscuroHover}" />
+                    <SolidColorBrush x:Key="ColorBotonPresionado" Color="{StaticResource ColorBotonAzulOscuroPresionado}" />
+                    <SolidColorBrush x:Key="ColorBotonEnfocado" Color="{StaticResource ColorBotonAzulOscuroEnfocado}" />
+                    <SolidColorBrush x:Key="ColorBotonDeshabilitado" Color="{StaticResource ColorBotonAzulOscuroDeshabilitado}" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

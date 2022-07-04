@@ -1,0 +1,30 @@
+﻿<!-- Este archivo se generaria de manera automatica por el servicio de tokens.
+    Las divisiones por modo y tipo de token son para claridad de este ejemplo, 
+    es posible que los tokens no vengan en un orden o grupos en particular -->
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- colores modo claro -->
+    <Color x:Key="ColorBotonAzulClaroDefecto">#023557</Color>
+    <Color x:Key="ColorFuenteBotonAzulClaroDefecto">#ffffff</Color>
+    <Color x:Key="ColorBotonAzulClaroHover">#024069</Color>
+    <Color x:Key="ColorBotonAzulClaroPresionado">#035991</Color>
+    <Color x:Key="ColorBotonAzulClaroDeshabilitado">#576e7d</Color>
+    <Color x:Key="ColorBotonAzulClaroEnfocado">#024069</Color>
+
+    <!-- Colores modo oscuro -->
+    <Color x:Key="ColorBotonAzulOscuroDefecto">#026cb3</Color>
+    <Color x:Key="ColorFuenteBotonAzulOscuroDefecto">#ffffff</Color>
+    <Color x:Key="ColorBotonAzulOscuroHover">#027ac9</Color>
+    <Color x:Key="ColorBotonAzulOscuroPresionado">#028eeb</Color>
+    <Color x:Key="ColorBotonAzulOscuroDeshabilitado">#8dbbd9</Color>
+    <Color x:Key="ColorBotonAzulOscuroEnfocado">#027ac9</Color>
+
+    <!-- espaciados -->
+    <x:Double x:Key="AnchoBordeBotonDefecto">1</x:Double>
+    <x:Double x:Key="PaddingBotonHorizontal">32</x:Double>
+    <x:Double x:Key="PaddingBotonVertical">12</x:Double>
+    <x:Double x:Key="FontSizeBody">16</x:Double>
+    <x:Double x:Key="LineHeightBody">24</x:Double>
+    <CornerRadius x:Key="CornerRadiusBoton">24</CornerRadius>
+</ResourceDictionary>
