@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Componentes\CompositionShadow.xaml.cs">
+      <DependentUpon>CompositionShadow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Componentes\DLSBoton.xaml.cs">
       <DependentUpon>DLSBoton.xaml</DependentUpon>
     </Compile>
@@ -161,6 +164,10 @@
     <Page Include="Common\TokensTematizados.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Componentes\CompositionShadow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Componentes\DLSBoton.xaml">
       <SubType>Designer</SubType>

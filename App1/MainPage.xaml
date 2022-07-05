@@ -9,6 +9,7 @@
     xmlns:templates="using:App1"
     xmlns:controls="using:Windows.UI.Core"
     xmlns:red="using:RedButton"
+    xmlns:usercontrols="using:Corresponsales.UserControls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Page.Resources>
@@ -112,6 +113,9 @@
                     </StackPanel>
                 </componentes:DLSTarjeta.Contenido>
             </componentes:DLSTarjeta>
+            <usercontrols:CompositionShadow BlurRadius="12" Color="Aqua">
+                <componentes:DLSBoton Label="Boton con sombra" HorizontalAlignment="Left" />
+            </usercontrols:CompositionShadow>
         </StackPanel>
     </Grid>
 </Page>
